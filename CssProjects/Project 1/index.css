@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+}
+
+.container{
+    width: 1210px;
+    height: 400px;
+    margin: 20px auto 0 ;
+    
+}
+
+.img-top{ /* google resmin konumu*/
+    margin: 0 35%;
+}
+
+img[alt="Google"] { /* google resminin boyutu*/
+    width: 350px;
+    height: auto; 
+}
+.search{
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 2px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 4px;
+
+}
+
+
+input[id="search-text"]{ /* textbox'ın ayarları*/
+    margin-bottom: 4px;
+    height: 18px;
+    width: 400px;
+} 
+
+
+input[id="search-submit"]  /* buttonun ayarları*/
+{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.left-bar{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 0%;
+    width: 40%;
+    height: 80px;
+    background-color: rgb(126, 229, 218);
+    margin-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+    
+}
+
+.center-bar{
+    float: left;
+    width: 19.5%;
+    height: 80px;
+    background-color: rgb(112, 204, 194);
+    margin-top: 2px;
+    margin-right: 2px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0%;
+}
+
+.right-bar{
+
+    background-color: rgb(98, 179, 170);
+    width: 40%;
+    height: 80px;
+    float: left;
+    margin-top: 2px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0%;
+    
+}
+
+
+#mail-text{
+    height: 14px;
+    width: 180px
+}
+
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    font-size: medium;
+}
+
+
+/*linklere tıklandığında rengini değiştirme*/
+a:visited{
+    color: rgb(22, 2, 92);
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: red;
+}
